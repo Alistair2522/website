@@ -1,12 +1,46 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!  
+This site showcases my **projects, achievements, and experiences** in computer science and software development.  
 
-Currently, two official plugins are available:
+![Portfolio Preview](./preview.png) <!-- Replace with actual screenshot -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **About Me** – Quick introduction about my background and interests  
+- **Projects** – Highlighting key works such as:
+  - 📊 Stock Market Predictor (ML + Python)
+  - 📅 Event Scheduler (MERN Stack)
+  - ✋ Computer Control using Hand Gestures (ML + TensorFlow)
+- **Experience & Achievements** – Internship, open source, and hackathon highlights  
+- **Contact & Links** – Easy access to my GitHub, LinkedIn, LeetCode, and more  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript, React, Tailwind CSS, Bootstrap  
+- **Backend:** Flask / Node.js (depending on project integrations)  
+- **Tools & Platforms:** GitHub, Firebase, MongoDB  
+- **Other:** Responsive design with modern UI  
+
+---
+
+## 🚀 Getting Started
+
+If you’d like to run this portfolio locally:
+
+```bash
+# Clone this repository
+git clone https://github.com/YourUsername/portfolio.git
+
+# Navigate to project folder
+cd portfolio
+
+# Install dependencies
+npm install   # or yarn install
+
+# Start development server
+npm run dev   # or yarn dev
