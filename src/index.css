@@ -160,3 +160,21 @@
   padding: 0;
   text-align: center;
 }
+
+@utility cloud {
+  @apply absolute bg-white rounded-full opacity-80;
+  filter: blur(8px);
+  box-shadow:
+    -30px 10px 40px 20px rgba(255, 255, 255, 0.9),
+    30px 10px 40px 20px rgba(255, 255, 255, 0.9),
+    0px -20px 40px 20px rgba(255, 255, 255, 0.9);
+}
+
+@keyframes moveClouds {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(120vw);
+  }
+}
