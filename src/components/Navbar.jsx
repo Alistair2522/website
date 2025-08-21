@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
-
+import { ThemeToggle } from "./ThemeToggle";
 const navItems = [
   { name: "Home", href: "#hero" },
   { name: "About", href: "#about" },
@@ -43,7 +43,7 @@ export const Navbar = () => {
               Portfolio
             </span>
           </a>
-
+          
           {/* desktop nav */}
           <div className="hidden md:flex space-x-8">
             {navItems.map((item, key) => (
@@ -55,6 +55,7 @@ export const Navbar = () => {
                 {item.name}
               </a>
             ))}
+            <ThemeToggle />
           </div>
 
           {/* mobile nav */}
@@ -86,6 +87,7 @@ export const Navbar = () => {
                   {item.name}
                 </a>
               ))}
+              <ThemeToggle />
             </div>
           </div>
         </div>
